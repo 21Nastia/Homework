@@ -1,0 +1,15 @@
+/Users/anastasia/Desktop/Strong/D_Z/obj/Debug/net6.0/D_Z.csproj.AssemblyReference.cache
+/Users/anastasia/Desktop/Strong/D_Z/obj/Debug/net6.0/D_Z.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anastasia/Desktop/Strong/D_Z/obj/Debug/net6.0/D_Z.AssemblyInfoInputs.cache
+/Users/anastasia/Desktop/Strong/D_Z/obj/Debug/net6.0/D_Z.AssemblyInfo.cs
+/Users/anastasia/Desktop/Strong/D_Z/obj/Debug/net6.0/D_Z.csproj.CoreCompileInputs.cache
+/Users/anastasia/Desktop/Strong/D_Z/bin/Debug/net6.0/D_Z
+/Users/anastasia/Desktop/Strong/D_Z/bin/Debug/net6.0/D_Z.deps.json
+/Users/anastasia/Desktop/Strong/D_Z/bin/Debug/net6.0/D_Z.runtimeconfig.json
+/Users/anastasia/Desktop/Strong/D_Z/bin/Debug/net6.0/D_Z.dll
+/Users/anastasia/Desktop/Strong/D_Z/bin/Debug/net6.0/D_Z.pdb
+/Users/anastasia/Desktop/Strong/D_Z/obj/Debug/net6.0/D_Z.dll
+/Users/anastasia/Desktop/Strong/D_Z/obj/Debug/net6.0/refint/D_Z.dll
+/Users/anastasia/Desktop/Strong/D_Z/obj/Debug/net6.0/D_Z.pdb
+/Users/anastasia/Desktop/Strong/D_Z/obj/Debug/net6.0/D_Z.genruntimeconfig.cache
+/Users/anastasia/Desktop/Strong/D_Z/obj/Debug/net6.0/ref/D_Z.dll
