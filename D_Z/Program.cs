@@ -1,55 +1,74 @@
-﻿
-// Задача 25: Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
-// Не используя Math.Pow
-// 3, 5 -> 243 (3⁵)
-// 2, 4 -> 16
+﻿// Задача 34: Задайте массив заполненный случайными положительными трёхзначными числами. 
+// Напишите программу, которая покажет количество чётных чисел в массиве.
+// [345, 897, 568, 234] -> 2
 
 
-// Console.WriteLine("Введите число");
-// int A = int.Parse(Console.ReadLine());
+// int[] array = new int[4]; // 4 - размер (количество) 
+// int evenNumber = 0;
 
-// Console.WriteLine("Введите число");
-// int B = int.Parse(Console.ReadLine());
-
-// int naturalDegree = A;
-// for (int i = 1; i < B; i ++)
+// for (int i = 0; i < array.Length; i++) // заполнение массива
 // {
-//     naturalDegree = naturalDegree * A;
+//     array[i] = new Random().Next(255, 800); // генерируем случайное число 
+//     Console.WriteLine(" " + array[i]);
+//     int currentNumber = array[i];
+
+
+// if(currentNumber % 2 == 0) 
+// {
+//     evenNumber ++;
 // }
-
-// Console.WriteLine("Натуральная степень = " + naturalDegree );
-
-
-
-// Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
-// 452 -> 11
-// 82 -> 10
-// 9012 -> 12
+ 
+// }
+// Console.WriteLine($"Колличество четных чичел: " + evenNumber);
 
 
-// Console.WriteLine("Введите число");
-// int a = int.Parse(Console.ReadLine());
-// int sum = 0;
-                                                    
-//  while (a > 0)                                      
-//   {
-//     int num = a % 10;
-//     a = a / 10;
-//     sum = sum + num;
-//   }
-// Console.WriteLine("сумма всех числе равна = " + sum);
 
 
-// Задача 29: Напишите программу, которая генерирует массив из 8 элементов - случайных чисел (от 0 до 20) и выводит их на экран.
-// 1, 2, 5, 7, 19, 6, 1, 3 -> [1, 2, 5, 7, 19, 6, 1, 3]
+// // Задача 36: Задайте одномерный массив, заполненный случайными числами. 
+// // Найдите сумму элементов, стоящих на нечётных позициях.
+// // [3, 7, 23, 12] -> 19
+// // [-4, -6, 89, 6] -> 0
 
-int[] array = new int [8];
-Console.Write("[ ");
-for (int i = 0; i < 8; i++) 
 
-{
-    int randomNumber = new Random().Next(0, 21);
-    array[i] = randomNumber;
-    Console.Write(" " + array[i] + " ");
-}
-Console.Write(" ]");
+        //  var rnd = new Random();
+        //     var arr = new int[4];
+ 
+        //     for (int i = 0; i < arr.Length; i++)
+        //         Console.Write("{0}\t", arr[i] = rnd.Next(0, 10));
+        //     Console.WriteLine();
+ 
+        //     var odd = arr.Where((element, index) => index % 2 != 0);
+            
+ 
+        //     Console.WriteLine("Не чётные. Количество: {0}. Сумма: {1}.", odd.Count(), odd.Sum());
+            
+ 
+        //     Console.ReadKey();
+
+
+
+        // Задача 38: Задайте массив вещественных чисел. 
+        // Найдите разницу между максимальным и минимальным элементов массива.
+        // [3 7 22 2 78] -> 76
+
+
+// Random rnd = new Random();
+//             int[] d = new int[5];
+//             int max = 0, min = 100;
+
+//             for (int i = 0; i<d.Length; i++ )  d[i] = rnd.Next(100);
+//             for (int i = 0; i < d.Length; i++)
+//             {
+//                 if (d[i] > max) max = d[i];
+//                 if (d[i] < min) min = d[i];
+//             }
+           
+//                for (int i = 0; i < d.Length; i++) Console.Write(" " + d[i]);//выводим массив
+//                Console.WriteLine();
+//                  Console.WriteLine("max:  " + max);
+//                  Console.WriteLine("min:  " + min);
+//                  Console.WriteLine("Разница максимального и минимального:  "+(max - min));
+//                 Console.ReadKey();
+
+
+
